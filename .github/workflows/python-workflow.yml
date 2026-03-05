@@ -15,4 +15,4 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r ${{ GITHUB_PATH }}/requirements.txt
+        pip install -r $GITHUB_PATH/requirements.txt
